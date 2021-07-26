@@ -20,3 +20,7 @@ git rm --crash
 
 提交代码
 git commit -m'xx' 文件名
+
+查看提交日志
+git reflog
+git log
