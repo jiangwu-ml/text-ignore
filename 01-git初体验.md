@@ -19,8 +19,11 @@ git add
 git rm --crash 
 
 提交代码
-git commit -m'xx' 文件名
+git commit -m'版本信息' 文件名
 
 查看提交日志
 git reflog
 git log
+
+版本穿梭
+git reset --hard 版本代码
