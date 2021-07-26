@@ -17,3 +17,6 @@ git add
 
 从暂存区删除
 git rm --crash 
+
+提交代码
+git commit -m'xx' 文件名
