@@ -12,6 +12,7 @@ killall Finder
 
 查看本地状态
 git status
+
 添加到暂存区
 git add 
 
@@ -26,4 +27,7 @@ git reflog
 git log
 
 版本穿梭
-git reset --hard 版本代码
+git reset --hard commit_id
+
+版本的删除
+git rebase -i commit_id_n-1  此处要删除前一个版本的id。
