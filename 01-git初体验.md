@@ -10,6 +10,8 @@ git init
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder  
 
+----------版本-----------
+
 查看本地状态
 git status
 
@@ -30,4 +32,12 @@ git log
 git reset --hard commit_id
 
 版本的删除
-git rebase -i commit_id_n-1  此处要删除前一个版本的id。
+git rebase -i commit_id_n-1  此处要删除前一个版本的id。(有问题？这到底是啥)
+
+----------分支------------
+查看当前分支的版本
+git branch -v 
+
+创建新的分支
+git branch branchname
+（疑问：创建的新分支，怎么搞过来原分支的代码？）
